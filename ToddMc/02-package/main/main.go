@@ -1,6 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"github.com/Grayspawn/Goworkspace/ToddMc/02-package/stringutil"
+	"github.com/Grayspawn/Goworkspace/ToddMc/02-package/bear"
+)
 
 func main () {
 	fmt.Println(stringutil.Reverse("!oG , olleH"))
