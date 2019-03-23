@@ -2,7 +2,7 @@ package viz
 
 import "fmt"
 
-func Printvarr () {
+func Printvarr() {
 	fmt.Println(MiName)
 	fmt.Println(hisName)
 
