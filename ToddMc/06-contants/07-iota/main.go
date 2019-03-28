@@ -1,3 +1,4 @@
+<<<<<<< HEAD
  package main
 
  import "fmt"
@@ -25,3 +26,6 @@ func main () {
 
 
 }
+=======
+package _7_iota
+>>>>>>> da815ba802ee2d58bcda9cb78566aa0020bf85a9

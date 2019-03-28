@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package main
 
 import "fmt"
@@ -15,3 +16,6 @@ func main () {
 	fmt.Println(b)
 	fmt.Println(c)
 }
+=======
+package _4_iota
+>>>>>>> da815ba802ee2d58bcda9cb78566aa0020bf85a9

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package main
 
 import "fmt"
@@ -14,3 +15,6 @@ func main () {
 
 
 // a CONSTANT is just a value that does not change
+=======
+package _1_contants
+>>>>>>> da815ba802ee2d58bcda9cb78566aa0020bf85a9
