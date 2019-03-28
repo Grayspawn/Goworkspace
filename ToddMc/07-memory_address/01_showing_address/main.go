@@ -8,6 +8,6 @@ func main () {
 
 	fmt.Println("x - ", x)
 	fmt.Println("x's memory address is" , &x )
-	fmt.Printf("%d \n", &x)
+	fmt.Printf("%d \n" , &x )
 
 }
