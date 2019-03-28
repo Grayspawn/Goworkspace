@@ -4,17 +4,17 @@ import "fmt"
 
 const (
 
-	a =iota
-	b = iota
-	c = iota
+	a = iota // 0
+	b = iota // 1
+	c = iota // 2
 
 )
 
 const (
 
-	d =iota
-	e = iota
-	f = iota
+	d = iota // 0
+	e = iota // 1
+	f = iota // 2
 
 )
 
