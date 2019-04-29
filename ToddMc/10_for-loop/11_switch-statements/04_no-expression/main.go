@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main (){
-   myFriendsname := "Ted"
+   myFriendsname := "Ted" // changing name length to 2 will print the first line
 
 	switch  {
 	case len(myFriendsname) == 2:
@@ -17,7 +17,7 @@ func main (){
 	case myFriendsname == "Julian":
 		fmt.Println("Wassup Julian")
 	default:
-		fmt.Println("This is the default")
+		fmt.Println("Nothing matched, this is the default")
 
 
 
