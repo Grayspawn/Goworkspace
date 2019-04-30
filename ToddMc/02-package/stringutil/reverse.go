@@ -2,7 +2,7 @@
 package stringutil
 
 // Reverse returns its argument string reversed rune-wise left to right
-func Reverse (s string) string {
+func Reverse(s string) string {
 	return reverseTwo(s)
 }
 
@@ -14,4 +14,3 @@ go build
 go install
  	will place the package inside the pkg directory of the workspace.
 */
-

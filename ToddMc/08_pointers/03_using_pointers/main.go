@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main ()  {
+func main() {
 
 	a := 3993
 
@@ -13,8 +13,8 @@ func main ()  {
 	fmt.Println(b)  // 0xc000080008
 	fmt.Println(*b) // 3993
 
-	*b = 4999		// changes value at that memory address and so changes value of a
-	fmt.Println(a)  // 4999
+	*b = 4999      // changes value at that memory address and so changes value of a
+	fmt.Println(a) // 4999
 }
 
 /*we can pass a memory address instead of a bunch of values (we can pass a reference)

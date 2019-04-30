@@ -6,7 +6,7 @@ import (
 	"net/http"
 )
 
-func main ()  {
+func main() {
 	res, _ := http.Get("http://www.kwanji.com")
 	page, _ := ioutil.ReadAll(res.Body)
 	res.Body.Close()

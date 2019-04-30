@@ -2,17 +2,16 @@ package main
 
 import "fmt"
 
+func zero(z *int) {
+	*z = 0
+}
 
-	func zero(z *int) {
-		*z = 0
-	}
+func main() {
 
-	func main () {
-
-		x := 5
-		zero(&x)
-		fmt.Println(x) // x is now 0
-	}
+	x := 5
+	zero(&x)
+	fmt.Println(x) // x is now 0
+}
 
 // x is 5
 // pass over memory address to func zero

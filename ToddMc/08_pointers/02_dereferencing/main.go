@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main () {
+func main() {
 
 	a := 75
 	fmt.Println(a)  // 75
@@ -11,7 +11,6 @@ func main () {
 	var b = &a      // referencing a memory address
 	fmt.Println(b)  // 0xc000018060
 	fmt.Println(*b) // 0xc000018060 *b is de-referencing a memory address
-
 
 	// b is an int pointer
 	// b points to the memory address that an int (a) is stored

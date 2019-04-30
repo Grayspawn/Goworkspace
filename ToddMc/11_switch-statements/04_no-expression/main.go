@@ -2,10 +2,10 @@ package main
 
 import "fmt"
 
-func main (){
-   myFriendsname := "Ted" // changing name length to 2 will print the first line
+func main() {
+	myFriendsname := "Ted" // changing name length to 2 will print the first line
 
-	switch  {
+	switch {
 	case len(myFriendsname) == 2:
 		fmt.Println("Wassup my fiend with the name of length 2")
 	case myFriendsname == "Tim":
@@ -18,8 +18,6 @@ func main (){
 		fmt.Println("Wassup Julian")
 	default:
 		fmt.Println("Nothing matched, this is the default")
-
-
 
 	}
 

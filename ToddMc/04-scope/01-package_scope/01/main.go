@@ -12,10 +12,8 @@ func main() { // Block Scope area 1
 	fmt.Println(x)
 	foo()
 
-
 }
 func foo() { // Block Scope area 2
 	fmt.Println(x)
-
 
 } // Block Scope areas 1&2 are contained in the overall Package scope
